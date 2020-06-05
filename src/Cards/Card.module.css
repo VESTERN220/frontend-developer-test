@@ -1,0 +1,62 @@
+.CardWrap {
+    width: 400px;
+    margin: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid #000000;
+    opacity: .4;
+    font-size: 12px;
+}
+
+.CardWrap:hover,
+.CardWrap:focus,
+.CardWrap:active {
+    opacity: 1;
+}
+
+.CardBody {
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardBody h1 {
+    margin: 10px auto 5px auto;
+    font-size: 20px;
+    color: red;
+}
+
+.CardBody h2 {
+    padding: 0;
+    font-size: 15px;
+}
+
+.CardDescription {
+    margin: 0 10px 10px 10px;
+    padding: 0;
+}
+
+.CardControl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CardControl button {
+    height: 25px;
+    width: 100px;
+    margin: 0 auto 10px auto;
+    border: none;
+    opacity: .5;
+    outline: none;
+    border-radius: 2px;
+    background: green;
+    cursor: pointer;
+
+}
+
+.CardControl button:active,
+.CardControl button:hover,
+.CardControl button:focus {
+    opacity: 1;
+}

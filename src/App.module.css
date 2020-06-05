@@ -1,0 +1,13 @@
+body {
+  background-color: #282c34;
+}
+.App {
+  margin: 50px auto;
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: white;
+}
+

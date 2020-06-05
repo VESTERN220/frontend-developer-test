@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useReducer} from 'react';
+import ArrayCards from "./Cards/ArrayCards";
+import {getData} from "./store/action/dataAction";
+import {getSate, initState} from "./store/reducer/dataReducer";
+import Spinner from "./Spinner/Spinner";
+import css from './App.module.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [state, dispatch] = useReducer(getSate, initState);
+    useEffect(() => {
+        getData(dispatch)
+    }, []);
+
+    if (!state.loadForm) {
+        return <Spinner/>
+    } else {
+        return (
+            <div className={css.App}>
+                <ArrayCards state={state.data}/>
+            </div>
+        )
+    }
 }
 
 export default App;
