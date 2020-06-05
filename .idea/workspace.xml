@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3bd33b03-28e6-4b08-9c1c-b0eb89f2cea0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591296899213</updated>
       <workItem from="1591296901658" duration="451000" />
-      <workItem from="1591297375619" duration="24281000" />
+      <workItem from="1591297375619" duration="24618000" />
     </task>
     <task id="LOCAL-00001" summary="Реализована web-страница с карточками товаров">
       <created>1591389931888</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591389931888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Настройка деплоя в GitHub Pages">
+      <created>1591390580634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591390580634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализована web-страница с карточками товаров" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализована web-страница с карточками товаров" />
+    <MESSAGE value="Настройка деплоя в GitHub Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настройка деплоя в GitHub Pages" />
   </component>
 </project>
