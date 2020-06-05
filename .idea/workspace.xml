@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd33b03-28e6-4b08-9c1c-b0eb89f2cea0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/ArrayCards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cards/Card.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spinner/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spinner/Spinner.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constans.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/action/dataAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer/dataReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +64,16 @@
       <option name="presentableId" value="Default" />
       <updated>1591296899213</updated>
       <workItem from="1591296901658" duration="451000" />
-      <workItem from="1591297375619" duration="23527000" />
+      <workItem from="1591297375619" duration="24281000" />
     </task>
+    <task id="LOCAL-00001" summary="Реализована web-страница с карточками товаров">
+      <created>1591389931888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591389931888</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Реализована web-страница с карточками товаров" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализована web-страница с карточками товаров" />
   </component>
 </project>
